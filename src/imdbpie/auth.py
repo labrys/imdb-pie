@@ -13,7 +13,7 @@ except ImportError:
 import diskcache
 from dateutil.tz import tzutc
 from dateutil.parser import parse
-import boto.utils
+import boto3.utils
 from six.moves.urllib.parse import urlparse, parse_qs, quote
 from boto3 import provider
 from boto3.connection import HTTPRequest
