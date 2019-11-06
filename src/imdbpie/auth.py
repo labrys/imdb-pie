@@ -15,9 +15,9 @@ from dateutil.tz import tzutc
 from dateutil.parser import parse
 import boto.utils
 from six.moves.urllib.parse import urlparse, parse_qs, quote
-from boto import provider
-from boto.connection import HTTPRequest
-from boto.auth import HmacAuthV3HTTPHandler
+from boto3 import provider
+from boto3.connection import HTTPRequest
+from boto3.auth import HmacAuthV3HTTPHandler
 
 from .constants import APP_KEY, HOST, USER_AGENT, BASE_URI
 
